@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="navbar-brand pt-4" href="/">Moussa Nait Merabet |</a>
+                <a className="navbar-brand pt-5" href="/">Moussa Nait Merabet |</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
