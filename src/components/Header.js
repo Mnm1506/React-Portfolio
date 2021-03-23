@@ -7,8 +7,9 @@ function Header() {
       <div className="main-container">
         <div className="greeting-wrapper">
           <h1>Hello! I'm Moussa.</h1>
-          <h6>Email : moussanm2017@outlook.com</h6>
-          <h6>Phone : 210-291-1303</h6>
+          <h6>- GitHub: https://github.com/Mnm1506</h6>
+          <h6>- Email : moussanm2017@outlook.com</h6>
+          <h6>- Phone : 210-291-1303</h6>
         </div>
         <div className="intro-wrapper">
         </div>
