@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import NotFound from "./pages/404";
 import Navbar from "./components/Navbar";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="container">
       <Navbar />
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
         <Switch>
           <Route exact path="/" component={ Home } />
           <Route exact path="/Projects" component={ Projects } />
