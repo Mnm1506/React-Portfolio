@@ -11,8 +11,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="container">
-      <Navbar />
       <Router basename={process.env.PUBLIC_URL}>
+      <Navbar />
         <Switch>
           <Route exact path="/" component={ Home } />
           <Route exact path="/Projects" component={ Projects } />
